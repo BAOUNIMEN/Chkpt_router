@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.movie-card{
+  border-radius: 6px;
+  background: rgb(158, 27, 4);
+  position: relative;
+  margin: 1rem;
+  width: 330px;
+  box-shadow: 0px 8px 20px 0px rgb(240, 99, 6);
+}
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.movie-card img{
+  max-width: 100%;
+    height: auto;
+    display: block;
+    width: 323px;
+    aspect-ratio: auto 156 / 207;
+    height: 430px;
+    border-style: solid;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+} 
